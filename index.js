@@ -8,6 +8,7 @@ var movables = {
   top: document.getElementById("top"),
 };
 let params = SimpleControlBox.loadUrlParams(window.location.href);
+console.log(params)
 var myBox = new SimpleControlBox({
   moveableElems: movables,
   initState: params,
